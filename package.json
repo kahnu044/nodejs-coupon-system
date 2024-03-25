@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-coupon-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahnu044/nodejs-coupon-system.git"
+  },
+  "keywords": [
+    "coupon-system"
+  ],
+  "author": "kahnu044",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahnu044/nodejs-coupon-system/issues"
+  },
+  "homepage": "https://github.com/kahnu044/nodejs-coupon-system#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1"
+  }
+}
